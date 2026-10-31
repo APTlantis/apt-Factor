@@ -1,0 +1,1288 @@
+
+["theme"]
+"name" = "Aptlantis-Factor"
+"variant" = "dark"
+"source_sha256" = "ed1bf1c9c235493041a83913bf38376510f5e260fc71a103a23e402db1d8f448"
+"final_colors" = 62
+
+["theme"."theme_identity"]
+"version" = 1
+"prefix" = "apt"
+"slug" = "factor"
+"evidence" = [{ "source" = "--theme-version", "version" = 1 }, { "source" = "source.filename", "version" = 1 }]
+
+["transformation"]
+"schema" = "aptlantis.target-palette.v1"
+"profile" = "siyuan"
+"requested_count" = 64
+"actual_count" = 62
+"unique_hex_count" = 33
+"canonical_count" = 32
+"token_order" = ["background", "foreground", "panel", "elevated", "muted", "primary", "secondary", "selection", "selection_text", "border", "warning", "error", "success", "info", "keyword", "string", "number", "function", "type", "operator", "constant", "comment", "primary_hover", "secondary_hover", "warning_hover", "error_hover", "success_hover", "info_hover", "primary_pressed", "secondary_pressed", "warning_pressed", "error_pressed", "success_pressed", "info_pressed", "primary_subdued", "secondary_subdued", "warning_subdued", "error_subdued", "success_subdued", "info_subdued", "foreground_on_panel", "foreground_on_elevated", "muted_on_panel", "muted_on_elevated", "primary_on_panel", "primary_on_elevated", "keyword_on_panel", "keyword_on_elevated", "string_on_panel", "string_on_elevated", "number_on_panel", "number_on_elevated", "function_on_panel", "function_on_elevated", "type_on_panel", "type_on_elevated", "operator_on_panel", "operator_on_elevated", "constant_on_panel", "constant_on_elevated", "comment_on_panel", "comment_on_elevated"]
+"omitted_canonical" = ["color_01", "color_03", "color_04", "color_06", "color_07", "color_08", "color_09", "color_10", "color_11", "color_12", "color_13", "color_14", "color_15", "color_19", "color_20", "color_22", "color_23", "color_25", "color_26", "color_28", "color_29"]
+"aliases" = [["foreground", "selection_text", "foreground_on_panel", "foreground_on_elevated"], ["muted", "function", "comment", "muted_on_elevated", "function_on_elevated", "comment_on_elevated"], ["primary", "primary_on_panel", "primary_on_elevated"], ["secondary", "info", "string", "string_on_elevated"], ["error", "operator", "operator_on_elevated"], ["success", "constant", "constant_on_panel", "constant_on_elevated"], ["keyword", "keyword_on_panel", "keyword_on_elevated"], ["number", "number_on_panel", "number_on_elevated"], ["type", "type_on_panel", "type_on_elevated"], ["secondary_hover", "info_hover"], ["secondary_pressed", "info_pressed"], ["secondary_subdued", "info_subdued"], ["muted_on_panel", "function_on_panel", "comment_on_panel"]]
+
+["palette"]
+
+["palette"."canonical"]
+
+["palette"."canonical"."background"]
+"hex" = "#020B14"
+"rgb" = [2, 11, 20]
+
+["palette"."canonical"."background"."oklch"]
+"l" = 0.1439154184565298
+"c" = 0.026570633116272273
+"h" = 242.6074216239515
+
+["palette"."canonical"."background"."origin"]
+"source" = "color_02"
+"purpose" = "app background"
+"requested_oklch" = [0.1439154184565298, 0.026570633116272273, 242.6074216239515]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."foreground"]
+"hex" = "#FEFEFD"
+"rgb" = [254, 254, 253]
+
+["palette"."canonical"."foreground"."oklch"]
+"l" = 0.9967476164609226
+"c" = 0.0013150600748799489
+"h" = 106.4234400220998
+
+["palette"."canonical"."foreground"."origin"]
+"source" = "color_32"
+"purpose" = "body text across surfaces"
+"requested_oklch" = [0.9967476164609226, 0.0013150600748799489, 106.4234400220998]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."primary"]
+"hex" = "#F7D34D"
+"rgb" = [247, 211, 77]
+
+["palette"."canonical"."primary"."oklch"]
+"l" = 0.8742266514987819
+"c" = 0.15254806746647975
+"h" = 93.75519139966194
+
+["palette"."canonical"."primary"."origin"]
+"source" = "color_27"
+"purpose" = "link and active accent"
+"requested_oklch" = [0.8742266514987819, 0.15254806746647975, 93.75519139966194]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."selection_text"]
+"hex" = "#FEFEFD"
+"rgb" = [254, 254, 253]
+
+["palette"."canonical"."selection_text"."oklch"]
+"l" = 0.9967476164609226
+"c" = 0.0013150600748799489
+"h" = 106.4234400220998
+
+["palette"."canonical"."selection_text"."origin"]
+"source" = "color_32"
+"purpose" = "selection text"
+"requested_oklch" = [0.9967476164609226, 0.0013150600748799489, 106.4234400220998]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."border"]
+"hex" = "#188581"
+"rgb" = [24, 133, 129]
+
+["palette"."canonical"."border"."oklch"]
+"l" = 0.5594425959929363
+"c" = 0.09097775635458037
+"h" = 190.97814015954856
+
+["palette"."canonical"."border"."origin"]
+"source" = "color_17"
+"purpose" = "control boundary"
+"requested_oklch" = [0.5594425959929363, 0.09097775635458037, 190.97814015954856]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."warning"]
+"hex" = "#A68530"
+"rgb" = [166, 133, 48]
+
+["palette"."canonical"."warning"."oklch"]
+"l" = 0.6320875248394502
+"c" = 0.1090062665307827
+"h" = 87.18361472667459
+
+["palette"."canonical"."warning"."origin"]
+"source" = "color_18"
+"purpose" = "status text"
+"requested_oklch" = [0.6320875248394502, 0.1090062665307827, 87.18361472667459]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."success"]
+"hex" = "#FEF26E"
+"rgb" = [254, 242, 110]
+
+["palette"."canonical"."success"."oklch"]
+"l" = 0.945737357772213
+"c" = 0.1523675070936176
+"h" = 104.10826020413043
+
+["palette"."canonical"."success"."origin"]
+"source" = "color_30"
+"purpose" = "status text"
+"requested_oklch" = [0.945737357772213, 0.1523675070936176, 104.10826020413043]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."keyword"]
+"hex" = "#D69D21"
+"rgb" = [214, 157, 33]
+
+["palette"."canonical"."keyword"."oklch"]
+"l" = 0.731691519944413
+"c" = 0.14303665775029745
+"h" = 80.74182283551652
+
+["palette"."canonical"."keyword"."origin"]
+"source" = "color_21"
+"purpose" = "code text"
+"requested_oklch" = [0.731691519944413, 0.14303665775029745, 80.74182283551652]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."number"]
+"hex" = "#FDEDBF"
+"rgb" = [253, 237, 191]
+
+["palette"."canonical"."number"."oklch"]
+"l" = 0.9475680404571584
+"c" = 0.0618584657704203
+"h" = 91.14274745761686
+
+["palette"."canonical"."number"."origin"]
+"source" = "color_31"
+"purpose" = "code text"
+"requested_oklch" = [0.9475680404571584, 0.0618584657704203, 91.14274745761686]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."type"]
+"hex" = "#F7C646"
+"rgb" = [247, 198, 70]
+
+["palette"."canonical"."type"."oklch"]
+"l" = 0.8481521405532998
+"c" = 0.149954661372958
+"h" = 87.16323586745294
+
+["palette"."canonical"."type"."origin"]
+"source" = "color_24"
+"purpose" = "code text"
+"requested_oklch" = [0.8481521405532998, 0.149954661372958, 87.16323586745294]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."constant"]
+"hex" = "#FEF26E"
+"rgb" = [254, 242, 110]
+
+["palette"."canonical"."constant"."oklch"]
+"l" = 0.945737357772213
+"c" = 0.1523675070936176
+"h" = 104.10826020413043
+
+["palette"."canonical"."constant"."origin"]
+"source" = "color_30"
+"purpose" = "code text"
+"requested_oklch" = [0.945737357772213, 0.1523675070936176, 104.10826020413043]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."foreground_on_panel"]
+"hex" = "#FEFEFD"
+"rgb" = [254, 254, 253]
+
+["palette"."canonical"."foreground_on_panel"."oklch"]
+"l" = 0.9967476164609226
+"c" = 0.0013150600748799489
+"h" = 106.4234400220998
+
+["palette"."canonical"."foreground_on_panel"."origin"]
+"source" = "color_32"
+"purpose" = "foreground text on panel"
+"requested_oklch" = [0.9967476164609226, 0.0013150600748799489, 106.4234400220998]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."foreground_on_elevated"]
+"hex" = "#FEFEFD"
+"rgb" = [254, 254, 253]
+
+["palette"."canonical"."foreground_on_elevated"."oklch"]
+"l" = 0.9967476164609226
+"c" = 0.0013150600748799489
+"h" = 106.4234400220998
+
+["palette"."canonical"."foreground_on_elevated"."origin"]
+"source" = "color_32"
+"purpose" = "foreground text on elevated"
+"requested_oklch" = [0.9967476164609226, 0.0013150600748799489, 106.4234400220998]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."primary_on_panel"]
+"hex" = "#F7D34D"
+"rgb" = [247, 211, 77]
+
+["palette"."canonical"."primary_on_panel"."oklch"]
+"l" = 0.8742266514987819
+"c" = 0.15254806746647975
+"h" = 93.75519139966194
+
+["palette"."canonical"."primary_on_panel"."origin"]
+"source" = "color_27"
+"purpose" = "primary text on panel"
+"requested_oklch" = [0.8742266514987819, 0.15254806746647975, 93.75519139966194]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."primary_on_elevated"]
+"hex" = "#F7D34D"
+"rgb" = [247, 211, 77]
+
+["palette"."canonical"."primary_on_elevated"."oklch"]
+"l" = 0.8742266514987819
+"c" = 0.15254806746647975
+"h" = 93.75519139966194
+
+["palette"."canonical"."primary_on_elevated"."origin"]
+"source" = "color_27"
+"purpose" = "primary text on elevated"
+"requested_oklch" = [0.8742266514987819, 0.15254806746647975, 93.75519139966194]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."keyword_on_panel"]
+"hex" = "#D69D21"
+"rgb" = [214, 157, 33]
+
+["palette"."canonical"."keyword_on_panel"."oklch"]
+"l" = 0.731691519944413
+"c" = 0.14303665775029745
+"h" = 80.74182283551652
+
+["palette"."canonical"."keyword_on_panel"."origin"]
+"source" = "color_21"
+"purpose" = "keyword text on panel"
+"requested_oklch" = [0.731691519944413, 0.14303665775029745, 80.74182283551652]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."keyword_on_elevated"]
+"hex" = "#D69D21"
+"rgb" = [214, 157, 33]
+
+["palette"."canonical"."keyword_on_elevated"."oklch"]
+"l" = 0.731691519944413
+"c" = 0.14303665775029745
+"h" = 80.74182283551652
+
+["palette"."canonical"."keyword_on_elevated"."origin"]
+"source" = "color_21"
+"purpose" = "keyword text on elevated"
+"requested_oklch" = [0.731691519944413, 0.14303665775029745, 80.74182283551652]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."number_on_panel"]
+"hex" = "#FDEDBF"
+"rgb" = [253, 237, 191]
+
+["palette"."canonical"."number_on_panel"."oklch"]
+"l" = 0.9475680404571584
+"c" = 0.0618584657704203
+"h" = 91.14274745761686
+
+["palette"."canonical"."number_on_panel"."origin"]
+"source" = "color_31"
+"purpose" = "number text on panel"
+"requested_oklch" = [0.9475680404571584, 0.0618584657704203, 91.14274745761686]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."number_on_elevated"]
+"hex" = "#FDEDBF"
+"rgb" = [253, 237, 191]
+
+["palette"."canonical"."number_on_elevated"."oklch"]
+"l" = 0.9475680404571584
+"c" = 0.0618584657704203
+"h" = 91.14274745761686
+
+["palette"."canonical"."number_on_elevated"."origin"]
+"source" = "color_31"
+"purpose" = "number text on elevated"
+"requested_oklch" = [0.9475680404571584, 0.0618584657704203, 91.14274745761686]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."type_on_panel"]
+"hex" = "#F7C646"
+"rgb" = [247, 198, 70]
+
+["palette"."canonical"."type_on_panel"."oklch"]
+"l" = 0.8481521405532998
+"c" = 0.149954661372958
+"h" = 87.16323586745294
+
+["palette"."canonical"."type_on_panel"."origin"]
+"source" = "color_24"
+"purpose" = "type text on panel"
+"requested_oklch" = [0.8481521405532998, 0.149954661372958, 87.16323586745294]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."type_on_elevated"]
+"hex" = "#F7C646"
+"rgb" = [247, 198, 70]
+
+["palette"."canonical"."type_on_elevated"."oklch"]
+"l" = 0.8481521405532998
+"c" = 0.149954661372958
+"h" = 87.16323586745294
+
+["palette"."canonical"."type_on_elevated"."origin"]
+"source" = "color_24"
+"purpose" = "type text on elevated"
+"requested_oklch" = [0.8481521405532998, 0.149954661372958, 87.16323586745294]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."constant_on_panel"]
+"hex" = "#FEF26E"
+"rgb" = [254, 242, 110]
+
+["palette"."canonical"."constant_on_panel"."oklch"]
+"l" = 0.945737357772213
+"c" = 0.1523675070936176
+"h" = 104.10826020413043
+
+["palette"."canonical"."constant_on_panel"."origin"]
+"source" = "color_30"
+"purpose" = "constant text on panel"
+"requested_oklch" = [0.945737357772213, 0.1523675070936176, 104.10826020413043]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."canonical"."constant_on_elevated"]
+"hex" = "#FEF26E"
+"rgb" = [254, 242, 110]
+
+["palette"."canonical"."constant_on_elevated"."oklch"]
+"l" = 0.945737357772213
+"c" = 0.1523675070936176
+"h" = 104.10826020413043
+
+["palette"."canonical"."constant_on_elevated"."origin"]
+"source" = "color_30"
+"purpose" = "constant text on elevated"
+"requested_oklch" = [0.945737357772213, 0.1523675070936176, 104.10826020413043]
+"gamut_mapped" = false
+"derived" = false
+
+["palette"."derived"]
+
+["palette"."derived"."panel"]
+"hex" = "#0B131A"
+"rgb" = [11, 19, 26]
+
+["palette"."derived"."panel"."oklch"]
+"l" = 0.18229086884302986
+"c" = 0.018879905518875698
+"h" = 245.4957943877125
+
+["palette"."derived"."panel"."origin"]
+"source" = "color_02"
+"purpose" = "panel background"
+"requested_oklch" = [0.1839154184565298, 0.01859944318139059, 242.6074216239515]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."elevated"]
+"hex" = "#182027"
+"rgb" = [24, 32, 39]
+
+["palette"."derived"."elevated"."oklch"]
+"l" = 0.2388829235692204
+"c" = 0.01780093452381549
+"h" = 245.049295306025
+
+["palette"."derived"."elevated"."origin"]
+"source" = "color_02"
+"purpose" = "elevated background"
+"requested_oklch" = [0.24, 0.01859944318139059, 242.6074216239515]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."muted"]
+"hex" = "#2F9490"
+"rgb" = [47, 148, 144]
+
+["palette"."derived"."muted"."oklch"]
+"l" = 0.6088019706775989
+"c" = 0.0907910700325867
+"h" = 191.2197470933539
+
+["palette"."derived"."muted"."origin"]
+"source" = "color_17"
+"purpose" = "secondary text"
+"requested_oklch" = [0.6094425959929364, 0.09097775635458037, 190.97814015954856]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."secondary"]
+"hex" = "#698D9D"
+"rgb" = [105, 141, 157]
+
+["palette"."derived"."secondary"."oklch"]
+"l" = 0.6222631505747245
+"c" = 0.046785123039772385
+"h" = 227.09458565376207
+
+["palette"."derived"."secondary"."origin"]
+"source" = "color_05"
+"purpose" = "secondary accent"
+"requested_oklch" = [0.6227368689672415, 0.0467094406991438, 226.4134246550946]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."selection"]
+"hex" = "#382D00"
+"rgb" = [56, 45, 0]
+
+["palette"."derived"."selection"."oklch"]
+"l" = 0.3005997979835433
+"c" = 0.06165676601271927
+"h" = 94.34617939117983
+
+["palette"."derived"."selection"."origin"]
+"source" = "color_27"
+"purpose" = "selection background"
+"requested_oklch" = [0.3, 0.08390143710656386, 93.75519139966194]
+"gamut_mapped" = true
+"derived" = true
+
+["palette"."derived"."error"]
+"hex" = "#B07D30"
+"rgb" = [176, 125, 48]
+
+["palette"."derived"."error"."oklch"]
+"l" = 0.6269819588960014
+"c" = 0.11142055590754578
+"h" = 73.9892407898291
+
+["palette"."derived"."error"."origin"]
+"source" = "color_16"
+"purpose" = "status text"
+"requested_oklch" = [0.6268855207311903, 0.1114459841026209, 73.77374724978061]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."info"]
+"hex" = "#698D9D"
+"rgb" = [105, 141, 157]
+
+["palette"."derived"."info"."oklch"]
+"l" = 0.6222631505747245
+"c" = 0.046785123039772385
+"h" = 227.09458565376207
+
+["palette"."derived"."info"."origin"]
+"source" = "color_05"
+"purpose" = "status text"
+"requested_oklch" = [0.6227368689672415, 0.0467094406991438, 226.4134246550946]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."string"]
+"hex" = "#698D9D"
+"rgb" = [105, 141, 157]
+
+["palette"."derived"."string"."oklch"]
+"l" = 0.6222631505747245
+"c" = 0.046785123039772385
+"h" = 227.09458565376207
+
+["palette"."derived"."string"."origin"]
+"source" = "color_05"
+"purpose" = "code text"
+"requested_oklch" = [0.6227368689672415, 0.0467094406991438, 226.4134246550946]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."function"]
+"hex" = "#2F9490"
+"rgb" = [47, 148, 144]
+
+["palette"."derived"."function"."oklch"]
+"l" = 0.6088019706775989
+"c" = 0.0907910700325867
+"h" = 191.2197470933539
+
+["palette"."derived"."function"."origin"]
+"source" = "color_17"
+"purpose" = "code text"
+"requested_oklch" = [0.6094425959929364, 0.09097775635458037, 190.97814015954856]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."operator"]
+"hex" = "#B07D30"
+"rgb" = [176, 125, 48]
+
+["palette"."derived"."operator"."oklch"]
+"l" = 0.6269819588960014
+"c" = 0.11142055590754578
+"h" = 73.9892407898291
+
+["palette"."derived"."operator"."origin"]
+"source" = "color_16"
+"purpose" = "code text"
+"requested_oklch" = [0.6268855207311903, 0.1114459841026209, 73.77374724978061]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."comment"]
+"hex" = "#2F9490"
+"rgb" = [47, 148, 144]
+
+["palette"."derived"."comment"."oklch"]
+"l" = 0.6088019706775989
+"c" = 0.0907910700325867
+"h" = 191.2197470933539
+
+["palette"."derived"."comment"."origin"]
+"source" = "color_17"
+"purpose" = "code text"
+"requested_oklch" = [0.6094425959929364, 0.09097775635458037, 190.97814015954856]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."primary_hover"]
+"hex" = "#FFE794"
+"rgb" = [255, 231, 148]
+
+["palette"."derived"."primary_hover"."oklch"]
+"l" = 0.9295166880364982
+"c" = 0.10589797402117197
+"h" = 93.84070547843778
+
+["palette"."derived"."primary_hover"."origin"]
+"source" = "color_27"
+"purpose" = "primary hover text"
+"requested_oklch" = [0.9292266514987819, 0.15254806746647975, 93.75519139966194]
+"gamut_mapped" = true
+"derived" = true
+
+["palette"."derived"."secondary_hover"]
+"hex" = "#799EAE"
+"rgb" = [121, 158, 174]
+
+["palette"."derived"."secondary_hover"."oklch"]
+"l" = 0.6774803242190481
+"c" = 0.04696213651360868
+"h" = 226.28885958429427
+
+["palette"."derived"."secondary_hover"."origin"]
+"source" = "color_05"
+"purpose" = "secondary hover text"
+"requested_oklch" = [0.6772631505747245, 0.0467094406991438, 226.4134246550946]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."warning_hover"]
+"hex" = "#B79643"
+"rgb" = [183, 150, 67]
+
+["palette"."derived"."warning_hover"."oklch"]
+"l" = 0.6871168466975529
+"c" = 0.10876064672331738
+"h" = 87.46451782701551
+
+["palette"."derived"."warning_hover"."origin"]
+"source" = "color_18"
+"purpose" = "warning hover text"
+"requested_oklch" = [0.6870875248394502, 0.1090062665307827, 87.18361472667459]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."error_hover"]
+"hex" = "#C28E43"
+"rgb" = [194, 142, 67]
+
+["palette"."derived"."error_hover"."oklch"]
+"l" = 0.6828283471324011
+"c" = 0.11128503303223262
+"h" = 73.90352390237209
+
+["palette"."derived"."error_hover"."origin"]
+"source" = "color_16"
+"purpose" = "error hover text"
+"requested_oklch" = [0.6819819588960014, 0.1114459841026209, 73.77374724978061]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."success_hover"]
+"hex" = "#FFFDE4"
+"rgb" = [255, 253, 228]
+
+["palette"."derived"."success_hover"."oklch"]
+"l" = 0.9890387828218322
+"c" = 0.032645761955071566
+"h" = 103.24246612439069
+
+["palette"."derived"."success_hover"."origin"]
+"source" = "color_30"
+"purpose" = "success hover text"
+"requested_oklch" = [0.99, 0.1523675070936176, 104.10826020413043]
+"gamut_mapped" = true
+"derived" = true
+
+["palette"."derived"."info_hover"]
+"hex" = "#799EAE"
+"rgb" = [121, 158, 174]
+
+["palette"."derived"."info_hover"."oklch"]
+"l" = 0.6774803242190481
+"c" = 0.04696213651360868
+"h" = 226.28885958429427
+
+["palette"."derived"."info_hover"."origin"]
+"source" = "color_05"
+"purpose" = "info hover text"
+"requested_oklch" = [0.6772631505747245, 0.0467094406991438, 226.4134246550946]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."primary_pressed"]
+"hex" = "#E5C136"
+"rgb" = [229, 193, 54]
+
+["palette"."derived"."primary_pressed"."oklch"]
+"l" = 0.819490054915782
+"c" = 0.1525504233911891
+"h" = 93.63582546242723
+
+["palette"."derived"."primary_pressed"."origin"]
+"source" = "color_27"
+"purpose" = "primary pressed text"
+"requested_oklch" = [0.8192266514987818, 0.15254806746647975, 93.75519139966194]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."secondary_pressed"]
+"hex" = "#688C9B"
+"rgb" = [104, 140, 155]
+
+["palette"."derived"."secondary_pressed"."oklch"]
+"l" = 0.6185637658621699
+"c" = 0.04605266958094494
+"h" = 225.5112393248665
+
+["palette"."derived"."secondary_pressed"."origin"]
+"source" = "color_05"
+"purpose" = "secondary pressed text"
+"requested_oklch" = [0.6182351952439724, 0.04667451585376234, 225.70025639012434]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."warning_pressed"]
+"hex" = "#A4832E"
+"rgb" = [164, 131, 46]
+
+["palette"."derived"."warning_pressed"."oklch"]
+"l" = 0.625579118623712
+"c" = 0.10877373403936173
+"h" = 87.08598127796915
+
+["palette"."derived"."warning_pressed"."origin"]
+"source" = "color_18"
+"purpose" = "warning pressed text"
+"requested_oklch" = [0.6260331467684057, 0.10903969863076549, 86.81374988924281]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."error_pressed"]
+"hex" = "#B27E32"
+"rgb" = [178, 126, 50]
+
+["palette"."derived"."error_pressed"."oklch"]
+"l" = 0.631468310728346
+"c" = 0.11147199193244244
+"h" = 73.24444977334343
+
+["palette"."derived"."error_pressed"."origin"]
+"source" = "color_16"
+"purpose" = "error pressed text"
+"requested_oklch" = [0.6314001674570895, 0.11164289666073919, 73.22689380541367]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."success_pressed"]
+"hex" = "#ECE05A"
+"rgb" = [236, 224, 90]
+
+["palette"."derived"."success_pressed"."oklch"]
+"l" = 0.8917666079838179
+"c" = 0.15288661558962469
+"h" = 104.198477567562
+
+["palette"."derived"."success_pressed"."origin"]
+"source" = "color_30"
+"purpose" = "success pressed text"
+"requested_oklch" = [0.890737357772213, 0.1523675070936176, 104.10826020413043]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."info_pressed"]
+"hex" = "#688C9B"
+"rgb" = [104, 140, 155]
+
+["palette"."derived"."info_pressed"."oklch"]
+"l" = 0.6185637658621699
+"c" = 0.04605266958094494
+"h" = 225.5112393248665
+
+["palette"."derived"."info_pressed"."origin"]
+"source" = "color_05"
+"purpose" = "info pressed text"
+"requested_oklch" = [0.6182351952439724, 0.04667451585376234, 225.70025639012434]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."primary_subdued"]
+"hex" = "#CEB45A"
+"rgb" = [206, 180, 90]
+
+["palette"."derived"."primary_subdued"."oklch"]
+"l" = 0.7742351066541046
+"c" = 0.11403809957587674
+"h" = 93.47426589272769
+
+["palette"."derived"."primary_subdued"."origin"]
+"source" = "color_27"
+"purpose" = "primary subdued text"
+"requested_oklch" = [0.7742266514987819, 0.11441105059985981, 93.75519139966194]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."secondary_subdued"]
+"hex" = "#718C97"
+"rgb" = [113, 140, 151]
+
+["palette"."derived"."secondary_subdued"."oklch"]
+"l" = 0.6230270941302015
+"c" = 0.034873345098047154
+"h" = 224.58889207924028
+
+["palette"."derived"."secondary_subdued"."origin"]
+"source" = "color_05"
+"purpose" = "secondary subdued text"
+"requested_oklch" = [0.6217237769678401, 0.03508653343363285, 225.71470242353328]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."warning_subdued"]
+"hex" = "#9C844A"
+"rgb" = [156, 132, 74]
+
+["palette"."derived"."warning_subdued"."oklch"]
+"l" = 0.6226099656889837
+"c" = 0.0822698721525354
+"h" = 87.5064040318381
+
+["palette"."derived"."warning_subdued"."origin"]
+"source" = "color_18"
+"purpose" = "warning subdued text"
+"requested_oklch" = [0.6219595811507926, 0.08216800297160631, 86.80721062810056]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."error_subdued"]
+"hex" = "#A7804D"
+"rgb" = [167, 128, 77]
+
+["palette"."derived"."error_subdued"."oklch"]
+"l" = 0.6263600163016001
+"c" = 0.08336696399147425
+"h" = 72.74070294487433
+
+["palette"."derived"."error_subdued"."origin"]
+"source" = "color_16"
+"purpose" = "error subdued text"
+"requested_oklch" = [0.6270777611685343, 0.08368231025644692, 73.47226077166063]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."success_subdued"]
+"hex" = "#D8D075"
+"rgb" = [216, 208, 117]
+
+["palette"."derived"."success_subdued"."oklch"]
+"l" = 0.8447065687997187
+"c" = 0.11352175170363642
+"h" = 104.11286192921726
+
+["palette"."derived"."success_subdued"."origin"]
+"source" = "color_30"
+"purpose" = "success subdued text"
+"requested_oklch" = [0.845737357772213, 0.1142756303202132, 104.10826020413043]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."info_subdued"]
+"hex" = "#718C97"
+"rgb" = [113, 140, 151]
+
+["palette"."derived"."info_subdued"."oklch"]
+"l" = 0.6230270941302015
+"c" = 0.034873345098047154
+"h" = 224.58889207924028
+
+["palette"."derived"."info_subdued"."origin"]
+"source" = "color_05"
+"purpose" = "info subdued text"
+"requested_oklch" = [0.6217237769678401, 0.03508653343363285, 225.71470242353328]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."muted_on_panel"]
+"hex" = "#228B87"
+"rgb" = [34, 139, 135]
+
+["palette"."derived"."muted_on_panel"."oklch"]
+"l" = 0.5792421378210644
+"c" = 0.09099464876422808
+"h" = 191.08092957636597
+
+["palette"."derived"."muted_on_panel"."origin"]
+"source" = "color_17"
+"purpose" = "muted text on panel"
+"requested_oklch" = [0.5794425959929363, 0.09097775635458037, 190.97814015954856]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."muted_on_elevated"]
+"hex" = "#2F9490"
+"rgb" = [47, 148, 144]
+
+["palette"."derived"."muted_on_elevated"."oklch"]
+"l" = 0.6088019706775989
+"c" = 0.0907910700325867
+"h" = 191.2197470933539
+
+["palette"."derived"."muted_on_elevated"."origin"]
+"source" = "color_17"
+"purpose" = "muted text on elevated"
+"requested_oklch" = [0.6094425959929364, 0.09097775635458037, 190.97814015954856]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."string_on_panel"]
+"hex" = "#608494"
+"rgb" = [96, 132, 148]
+
+["palette"."derived"."string_on_panel"."oklch"]
+"l" = 0.592228378788988
+"c" = 0.047168608807646804
+"h" = 227.20414816029154
+
+["palette"."derived"."string_on_panel"."origin"]
+"source" = "color_05"
+"purpose" = "string text on panel"
+"requested_oklch" = [0.5927368689672415, 0.0467094406991438, 226.4134246550946]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."string_on_elevated"]
+"hex" = "#698D9D"
+"rgb" = [105, 141, 157]
+
+["palette"."derived"."string_on_elevated"."oklch"]
+"l" = 0.6222631505747245
+"c" = 0.046785123039772385
+"h" = 227.09458565376207
+
+["palette"."derived"."string_on_elevated"."origin"]
+"source" = "color_05"
+"purpose" = "string text on elevated"
+"requested_oklch" = [0.6227368689672415, 0.0467094406991438, 226.4134246550946]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."function_on_panel"]
+"hex" = "#228B87"
+"rgb" = [34, 139, 135]
+
+["palette"."derived"."function_on_panel"."oklch"]
+"l" = 0.5792421378210644
+"c" = 0.09099464876422808
+"h" = 191.08092957636597
+
+["palette"."derived"."function_on_panel"."origin"]
+"source" = "color_17"
+"purpose" = "function text on panel"
+"requested_oklch" = [0.5794425959929363, 0.09097775635458037, 190.97814015954856]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."function_on_elevated"]
+"hex" = "#2F9490"
+"rgb" = [47, 148, 144]
+
+["palette"."derived"."function_on_elevated"."oklch"]
+"l" = 0.6088019706775989
+"c" = 0.0907910700325867
+"h" = 191.2197470933539
+
+["palette"."derived"."function_on_elevated"."origin"]
+"source" = "color_17"
+"purpose" = "function text on elevated"
+"requested_oklch" = [0.6094425959929364, 0.09097775635458037, 190.97814015954856]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."operator_on_panel"]
+"hex" = "#A77425"
+"rgb" = [167, 116, 37]
+
+["palette"."derived"."operator_on_panel"."oklch"]
+"l" = 0.597640361578251
+"c" = 0.1117935535538902
+"h" = 73.69951882168226
+
+["palette"."derived"."operator_on_panel"."origin"]
+"source" = "color_16"
+"purpose" = "operator text on panel"
+"requested_oklch" = [0.5968855207311904, 0.1114459841026209, 73.77374724978061]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."operator_on_elevated"]
+"hex" = "#B07D30"
+"rgb" = [176, 125, 48]
+
+["palette"."derived"."operator_on_elevated"."oklch"]
+"l" = 0.6269819588960014
+"c" = 0.11142055590754578
+"h" = 73.9892407898291
+
+["palette"."derived"."operator_on_elevated"."origin"]
+"source" = "color_16"
+"purpose" = "operator text on elevated"
+"requested_oklch" = [0.6268855207311903, 0.1114459841026209, 73.77374724978061]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."comment_on_panel"]
+"hex" = "#228B87"
+"rgb" = [34, 139, 135]
+
+["palette"."derived"."comment_on_panel"."oklch"]
+"l" = 0.5792421378210644
+"c" = 0.09099464876422808
+"h" = 191.08092957636597
+
+["palette"."derived"."comment_on_panel"."origin"]
+"source" = "color_17"
+"purpose" = "comment text on panel"
+"requested_oklch" = [0.5794425959929363, 0.09097775635458037, 190.97814015954856]
+"gamut_mapped" = false
+"derived" = true
+
+["palette"."derived"."comment_on_elevated"]
+"hex" = "#2F9490"
+"rgb" = [47, 148, 144]
+
+["palette"."derived"."comment_on_elevated"."oklch"]
+"l" = 0.6088019706775989
+"c" = 0.0907910700325867
+"h" = 191.2197470933539
+
+["palette"."derived"."comment_on_elevated"."origin"]
+"source" = "color_17"
+"purpose" = "comment text on elevated"
+"requested_oklch" = [0.6094425959929364, 0.09097775635458037, 190.97814015954856]
+"gamut_mapped" = false
+"derived" = true
+
+["roles"]
+
+["roles"."tokens"]
+"background" = "background"
+"foreground" = "foreground"
+"panel" = "panel"
+"elevated" = "elevated"
+"muted" = "muted"
+"primary" = "primary"
+"secondary" = "secondary"
+"selection" = "selection"
+"selection_text" = "selection_text"
+"border" = "border"
+"warning" = "warning"
+"error" = "error"
+"success" = "success"
+"info" = "info"
+"keyword" = "keyword"
+"string" = "string"
+"number" = "number"
+"function" = "function"
+"type" = "type"
+"operator" = "operator"
+"constant" = "constant"
+"comment" = "comment"
+"primary_hover" = "primary_hover"
+"secondary_hover" = "secondary_hover"
+"warning_hover" = "warning_hover"
+"error_hover" = "error_hover"
+"success_hover" = "success_hover"
+"info_hover" = "info_hover"
+"primary_pressed" = "primary_pressed"
+"secondary_pressed" = "secondary_pressed"
+"warning_pressed" = "warning_pressed"
+"error_pressed" = "error_pressed"
+"success_pressed" = "success_pressed"
+"info_pressed" = "info_pressed"
+"primary_subdued" = "primary_subdued"
+"secondary_subdued" = "secondary_subdued"
+"warning_subdued" = "warning_subdued"
+"error_subdued" = "error_subdued"
+"success_subdued" = "success_subdued"
+"info_subdued" = "info_subdued"
+"foreground_on_panel" = "foreground_on_panel"
+"foreground_on_elevated" = "foreground_on_elevated"
+"muted_on_panel" = "muted_on_panel"
+"muted_on_elevated" = "muted_on_elevated"
+"primary_on_panel" = "primary_on_panel"
+"primary_on_elevated" = "primary_on_elevated"
+"keyword_on_panel" = "keyword_on_panel"
+"keyword_on_elevated" = "keyword_on_elevated"
+"string_on_panel" = "string_on_panel"
+"string_on_elevated" = "string_on_elevated"
+"number_on_panel" = "number_on_panel"
+"number_on_elevated" = "number_on_elevated"
+"function_on_panel" = "function_on_panel"
+"function_on_elevated" = "function_on_elevated"
+"type_on_panel" = "type_on_panel"
+"type_on_elevated" = "type_on_elevated"
+"operator_on_panel" = "operator_on_panel"
+"operator_on_elevated" = "operator_on_elevated"
+"constant_on_panel" = "constant_on_panel"
+"constant_on_elevated" = "constant_on_elevated"
+"comment_on_panel" = "comment_on_panel"
+"comment_on_elevated" = "comment_on_elevated"
+
+["source_palette"]
+
+["source_palette"."canonical"]
+
+["source_palette"."canonical"."color_01"]
+"hex" = "#000000"
+"rgb" = [0, 0, 0]
+"oklch" = [0.0, 0.0, 0.0]
+"weight" = 35163.0
+
+["source_palette"."canonical"."color_02"]
+"hex" = "#020B14"
+"rgb" = [2, 11, 20]
+"oklch" = [0.1439154184565298, 0.026570633116272273, 242.6074216239515]
+"weight" = 204.0
+
+["source_palette"."canonical"."color_03"]
+"hex" = "#10100D"
+"rgb" = [16, 16, 13]
+"oklch" = [0.17183059372181536, 0.006050983389940806, 107.01982436405864]
+"weight" = 372.0
+
+["source_palette"."canonical"."color_04"]
+"hex" = "#181B18"
+"rgb" = [24, 27, 24]
+"oklch" = [0.21774706681028486, 0.007346217043640665, 145.3172892744366]
+"weight" = 313.0
+
+["source_palette"."canonical"."color_05"]
+"hex" = "#042936"
+"rgb" = [4, 41, 54]
+"oklch" = [0.2627368689672415, 0.0467094406991438, 226.4134246550946]
+"weight" = 232.0
+
+["source_palette"."canonical"."color_06"]
+"hex" = "#342C17"
+"rgb" = [52, 44, 23]
+"oklch" = [0.29607759640403025, 0.03606075120144325, 89.28349661487744]
+"weight" = 210.0
+
+["source_palette"."canonical"."color_07"]
+"hex" = "#064152"
+"rgb" = [6, 65, 82]
+"oklch" = [0.34931789214486686, 0.06221112101434877, 223.41517087365966]
+"weight" = 135.0
+
+["source_palette"."canonical"."color_08"]
+"hex" = "#3B3F47"
+"rgb" = [59, 63, 71]
+"oklch" = [0.3669919226313736, 0.014771403475677448, 264.3759436215748]
+"weight" = 229.0
+
+["source_palette"."canonical"."color_09"]
+"hex" = "#434138"
+"rgb" = [67, 65, 56]
+"oklch" = [0.37431832062930187, 0.015139443303625821, 96.7324482801721]
+"weight" = 153.0
+
+["source_palette"."canonical"."color_10"]
+"hex" = "#584213"
+"rgb" = [88, 66, 19]
+"oklch" = [0.3934218672975841, 0.06926018172007928, 82.7785006102737]
+"weight" = 164.0
+
+["source_palette"."canonical"."color_11"]
+"hex" = "#4F5256"
+"rgb" = [79, 82, 86]
+"oklch" = [0.4372749377638252, 0.007620767755190748, 255.52424039049012]
+"weight" = 258.0
+
+["source_palette"."canonical"."color_12"]
+"hex" = "#0D5C71"
+"rgb" = [13, 92, 113]
+"oklch" = [0.4411622007705018, 0.0770805534353039, 221.59255164817415]
+"weight" = 93.0
+
+["source_palette"."canonical"."color_13"]
+"hex" = "#6D5829"
+"rgb" = [109, 88, 41]
+"oklch" = [0.47109345617847787, 0.0702037175122051, 85.39902946232726]
+"weight" = 135.0
+
+["source_palette"."canonical"."color_14"]
+"hex" = "#5C6166"
+"rgb" = [92, 97, 102]
+"oklch" = [0.4899245201744229, 0.010156471099046271, 248.03538844423505]
+"weight" = 231.0
+
+["source_palette"."canonical"."color_15"]
+"hex" = "#717376"
+"rgb" = [113, 115, 118]
+"oklch" = [0.5547721065128193, 0.005226456715767596, 258.3355877545325]
+"weight" = 213.0
+
+["source_palette"."canonical"."color_16"]
+"hex" = "#9A6814"
+"rgb" = [154, 104, 20]
+"oklch" = [0.5568855207311904, 0.1114459841026209, 73.77374724978061]
+"weight" = 116.0
+
+["source_palette"."canonical"."color_17"]
+"hex" = "#188581"
+"rgb" = [24, 133, 129]
+"oklch" = [0.5594425959929363, 0.09097775635458037, 190.97814015954856]
+"weight" = 15.0
+
+["source_palette"."canonical"."color_18"]
+"hex" = "#A68530"
+"rgb" = [166, 133, 48]
+"oklch" = [0.6320875248394502, 0.1090062665307827, 87.18361472667459]
+"weight" = 87.0
+
+["source_palette"."canonical"."color_19"]
+"hex" = "#878D92"
+"rgb" = [135, 141, 146]
+"oklch" = [0.6400390053986167, 0.01027302494094073, 242.92119168079492]
+"weight" = 245.0
+
+["source_palette"."canonical"."color_20"]
+"hex" = "#A0A1A0"
+"rgb" = [160, 161, 160]
+"oklch" = [0.707874280328967, 0.0018286177851591014, 145.5566783569199]
+"weight" = 202.0
+
+["source_palette"."canonical"."color_21"]
+"hex" = "#D69D21"
+"rgb" = [214, 157, 33]
+"oklch" = [0.731691519944413, 0.14303665775029745, 80.74182283551652]
+"weight" = 154.0
+
+["source_palette"."canonical"."color_22"]
+"hex" = "#B8B5B2"
+"rgb" = [184, 181, 178]
+"oklch" = [0.7746682382645553, 0.005432643399572176, 67.74465807851725]
+"weight" = 239.0
+
+["source_palette"."canonical"."color_23"]
+"hex" = "#F0AC12"
+"rgb" = [240, 172, 18]
+"oklch" = [0.788547999349388, 0.16073517752059205, 79.43999895900866]
+"weight" = 143.0
+
+["source_palette"."canonical"."color_24"]
+"hex" = "#F7C646"
+"rgb" = [247, 198, 70]
+"oklch" = [0.8481521405532998, 0.149954661372958, 87.16323586745294]
+"weight" = 158.0
+
+["source_palette"."canonical"."color_25"]
+"hex" = "#BCD1E2"
+"rgb" = [188, 209, 226]
+"oklch" = [0.850268911105758, 0.03284851996885155, 242.4154315250787]
+"weight" = 141.0
+
+["source_palette"."canonical"."color_26"]
+"hex" = "#DFD2C0"
+"rgb" = [223, 210, 192]
+"oklch" = [0.8694483895391588, 0.02828121104513926, 76.18379538496056]
+"weight" = 168.0
+
+["source_palette"."canonical"."color_27"]
+"hex" = "#F7D34D"
+"rgb" = [247, 211, 77]
+"oklch" = [0.8742266514987819, 0.15254806746647975, 93.75519139966194]
+"weight" = 239.0
+
+["source_palette"."canonical"."color_28"]
+"hex" = "#E8E7E5"
+"rgb" = [232, 231, 229]
+"oklch" = [0.9281806129839264, 0.0028983122138741984, 84.55935212841192]
+"weight" = 219.0
+
+["source_palette"."canonical"."color_29"]
+"hex" = "#FCEA94"
+"rgb" = [252, 234, 148]
+"oklch" = [0.9328844610283571, 0.10803149342031991, 97.81962579293777]
+"weight" = 235.0
+
+["source_palette"."canonical"."color_30"]
+"hex" = "#FEF26E"
+"rgb" = [254, 242, 110]
+"oklch" = [0.945737357772213, 0.1523675070936176, 104.10826020413043]
+"weight" = 133.0
+
+["source_palette"."canonical"."color_31"]
+"hex" = "#FDEDBF"
+"rgb" = [253, 237, 191]
+"oklch" = [0.9475680404571584, 0.0618584657704203, 91.14274745761686]
+"weight" = 244.0
+
+["source_palette"."canonical"."color_32"]
+"hex" = "#FEFEFD"
+"rgb" = [254, 254, 253]
+"oklch" = [0.9967476164609226, 0.0013150600748799489, 106.4234400220998]
+"weight" = 798.0
+
+["validation"]
+"checks" = [{ "foreground" = "foreground", "background" = "background", "ratio" = 19.62122188876633, "required" = 4.5, "pass" = true }, { "foreground" = "muted", "background" = "background", "ratio" = 5.430534572795736, "required" = 4.5, "pass" = true }, { "foreground" = "primary", "background" = "background", "ratio" = 13.55902649652445, "required" = 4.5, "pass" = true }, { "foreground" = "secondary", "background" = "background", "ratio" = 5.5606666530507605, "required" = 4.5, "pass" = true }, { "foreground" = "selection_text", "background" = "selection", "ratio" = 13.481697146301475, "required" = 4.5, "pass" = true }, { "foreground" = "border", "background" = "background", "ratio" = 4.4417307442091625, "required" = 3, "pass" = true }, { "foreground" = "warning", "background" = "background", "ratio" = 5.675586342589777, "required" = 4.5, "pass" = true }, { "foreground" = "error", "background" = "background", "ratio" = 5.489944188678665, "required" = 4.5, "pass" = true }, { "foreground" = "success", "background" = "background", "ratio" = 17.104701499553222, "required" = 4.5, "pass" = true }, { "foreground" = "info", "background" = "background", "ratio" = 5.5606666530507605, "required" = 4.5, "pass" = true }, { "foreground" = "keyword", "background" = "background", "ratio" = 8.207344614045521, "required" = 4.5, "pass" = true }, { "foreground" = "string", "background" = "background", "ratio" = 5.5606666530507605, "required" = 4.5, "pass" = true }, { "foreground" = "number", "background" = "background", "ratio" = 17.012587054343538, "required" = 4.5, "pass" = true }, { "foreground" = "function", "background" = "background", "ratio" = 5.430534572795736, "required" = 4.5, "pass" = true }, { "foreground" = "type", "background" = "background", "ratio" = 12.372148768210712, "required" = 4.5, "pass" = true }, { "foreground" = "operator", "background" = "background", "ratio" = 5.489944188678665, "required" = 4.5, "pass" = true }, { "foreground" = "constant", "background" = "background", "ratio" = 17.104701499553222, "required" = 4.5, "pass" = true }, { "foreground" = "comment", "background" = "background", "ratio" = 5.430534572795736, "required" = 4.5, "pass" = true }, { "foreground" = "primary_hover", "background" = "background", "ratio" = 16.13336851409584, "required" = 4.5, "pass" = true }, { "foreground" = "secondary_hover", "background" = "background", "ratio" = 6.897186165004793, "required" = 4.5, "pass" = true }, { "foreground" = "warning_hover", "background" = "background", "ratio" = 7.031467414300044, "required" = 4.5, "pass" = true }, { "foreground" = "error_hover", "background" = "background", "ratio" = 6.830765441080515, "required" = 4.5, "pass" = true }, { "foreground" = "success_hover", "background" = "background", "ratio" = 19.256489052732004, "required" = 4.5, "pass" = true }, { "foreground" = "info_hover", "background" = "background", "ratio" = 6.897186165004793, "required" = 4.5, "pass" = true }, { "foreground" = "primary_pressed", "background" = "background", "ratio" = 11.327276237845439, "required" = 4.5, "pass" = true }, { "foreground" = "secondary_pressed", "background" = "background", "ratio" = 5.481171639734088, "required" = 4.5, "pass" = true }, { "foreground" = "warning_pressed", "background" = "background", "ratio" = 5.52979508367193, "required" = 4.5, "pass" = true }, { "foreground" = "error_pressed", "background" = "background", "ratio" = 5.585417027057181, "required" = 4.5, "pass" = true }, { "foreground" = "success_pressed", "background" = "background", "ratio" = 14.498762535383758, "required" = 4.5, "pass" = true }, { "foreground" = "info_pressed", "background" = "background", "ratio" = 5.481171639734088, "required" = 4.5, "pass" = true }, { "foreground" = "primary_subdued", "background" = "background", "ratio" = 9.712597228621815, "required" = 4.5, "pass" = true }, { "foreground" = "secondary_subdued", "background" = "background", "ratio" = 5.563314078989077, "required" = 4.5, "pass" = true }, { "foreground" = "warning_subdued", "background" = "background", "ratio" = 5.4811969169773125, "required" = 4.5, "pass" = true }, { "foreground" = "error_subdued", "background" = "background", "ratio" = 5.504778505547966, "required" = 4.5, "pass" = true }, { "foreground" = "success_subdued", "background" = "background", "ratio" = 12.445557606843847, "required" = 4.5, "pass" = true }, { "foreground" = "info_subdued", "background" = "background", "ratio" = 5.563314078989077, "required" = 4.5, "pass" = true }, { "foreground" = "foreground_on_panel", "background" = "panel", "ratio" = 18.541759740860904, "required" = 4.5, "pass" = true }, { "foreground" = "foreground_on_elevated", "background" = "elevated", "ratio" = 16.324390127335302, "required" = 4.5, "pass" = true }, { "foreground" = "muted_on_panel", "background" = "panel", "ratio" = 4.553835299839102, "required" = 4.5, "pass" = true }, { "foreground" = "muted_on_elevated", "background" = "elevated", "ratio" = 4.518075656493866, "required" = 4.5, "pass" = true }, { "foreground" = "primary_on_panel", "background" = "panel", "ratio" = 12.813076221438644, "required" = 4.5, "pass" = true }, { "foreground" = "primary_on_elevated", "background" = "elevated", "ratio" = 11.280787686462387, "required" = 4.5, "pass" = true }, { "foreground" = "keyword_on_panel", "background" = "panel", "ratio" = 7.755817288382387, "required" = 4.5, "pass" = true }, { "foreground" = "keyword_on_elevated", "background" = "elevated", "ratio" = 6.828315593631318, "required" = 4.5, "pass" = true }, { "foreground" = "string_on_panel", "background" = "panel", "ratio" = 4.6559999874540505, "required" = 4.5, "pass" = true }, { "foreground" = "string_on_elevated", "background" = "elevated", "ratio" = 4.626342453445026, "required" = 4.5, "pass" = true }, { "foreground" = "number_on_panel", "background" = "panel", "ratio" = 16.076639035039815, "required" = 4.5, "pass" = true }, { "foreground" = "number_on_elevated", "background" = "elevated", "ratio" = 14.154067964001781, "required" = 4.5, "pass" = true }, { "foreground" = "function_on_panel", "background" = "panel", "ratio" = 4.553835299839102, "required" = 4.5, "pass" = true }, { "foreground" = "function_on_elevated", "background" = "elevated", "ratio" = 4.518075656493866, "required" = 4.5, "pass" = true }, { "foreground" = "type_on_panel", "background" = "panel", "ratio" = 11.691494609196054, "required" = 4.5, "pass" = true }, { "foreground" = "type_on_elevated", "background" = "elevated", "ratio" = 10.293333633892315, "required" = 4.5, "pass" = true }, { "foreground" = "operator_on_panel", "background" = "panel", "ratio" = 4.60500446660763, "required" = 4.5, "pass" = true }, { "foreground" = "operator_on_elevated", "background" = "elevated", "ratio" = 4.567503044476432, "required" = 4.5, "pass" = true }, { "foreground" = "constant_on_panel", "background" = "panel", "ratio" = 16.163685801108876, "required" = 4.5, "pass" = true }, { "foreground" = "constant_on_elevated", "background" = "elevated", "ratio" = 14.230704992444277, "required" = 4.5, "pass" = true }, { "foreground" = "comment_on_panel", "background" = "panel", "ratio" = 4.553835299839102, "required" = 4.5, "pass" = true }, { "foreground" = "comment_on_elevated", "background" = "elevated", "ratio" = 4.518075656493866, "required" = 4.5, "pass" = true }, { "foreground" = "foreground_on_panel", "background" = "panel", "ratio" = 18.541759740860904, "required" = 4.5, "pass" = true }, { "foreground" = "muted_on_panel", "background" = "panel", "ratio" = 4.553835299839102, "required" = 4.5, "pass" = true }, { "foreground" = "primary_on_panel", "background" = "panel", "ratio" = 12.813076221438644, "required" = 4.5, "pass" = true }, { "foreground" = "keyword_on_panel", "background" = "panel", "ratio" = 7.755817288382387, "required" = 4.5, "pass" = true }, { "foreground" = "string_on_panel", "background" = "panel", "ratio" = 4.6559999874540505, "required" = 4.5, "pass" = true }, { "foreground" = "number_on_panel", "background" = "panel", "ratio" = 16.076639035039815, "required" = 4.5, "pass" = true }, { "foreground" = "function_on_panel", "background" = "panel", "ratio" = 4.553835299839102, "required" = 4.5, "pass" = true }, { "foreground" = "type_on_panel", "background" = "panel", "ratio" = 11.691494609196054, "required" = 4.5, "pass" = true }, { "foreground" = "operator_on_panel", "background" = "panel", "ratio" = 4.60500446660763, "required" = 4.5, "pass" = true }, { "foreground" = "constant_on_panel", "background" = "panel", "ratio" = 16.163685801108876, "required" = 4.5, "pass" = true }, { "foreground" = "comment_on_panel", "background" = "panel", "ratio" = 4.553835299839102, "required" = 4.5, "pass" = true }, { "foreground" = "foreground_on_elevated", "background" = "elevated", "ratio" = 16.324390127335302, "required" = 4.5, "pass" = true }, { "foreground" = "muted_on_elevated", "background" = "elevated", "ratio" = 4.518075656493866, "required" = 4.5, "pass" = true }, { "foreground" = "primary_on_elevated", "background" = "elevated", "ratio" = 11.280787686462387, "required" = 4.5, "pass" = true }, { "foreground" = "keyword_on_elevated", "background" = "elevated", "ratio" = 6.828315593631318, "required" = 4.5, "pass" = true }, { "foreground" = "string_on_elevated", "background" = "elevated", "ratio" = 4.626342453445026, "required" = 4.5, "pass" = true }, { "foreground" = "number_on_elevated", "background" = "elevated", "ratio" = 14.154067964001781, "required" = 4.5, "pass" = true }, { "foreground" = "function_on_elevated", "background" = "elevated", "ratio" = 4.518075656493866, "required" = 4.5, "pass" = true }, { "foreground" = "type_on_elevated", "background" = "elevated", "ratio" = 10.293333633892315, "required" = 4.5, "pass" = true }, { "foreground" = "operator_on_elevated", "background" = "elevated", "ratio" = 4.567503044476432, "required" = 4.5, "pass" = true }, { "foreground" = "constant_on_elevated", "background" = "elevated", "ratio" = 14.230704992444277, "required" = 4.5, "pass" = true }, { "foreground" = "comment_on_elevated", "background" = "elevated", "ratio" = 4.518075656493866, "required" = 4.5, "pass" = true }]
+"contrast_failures" = 0
+"native_visual_acceptance" = "pending"
